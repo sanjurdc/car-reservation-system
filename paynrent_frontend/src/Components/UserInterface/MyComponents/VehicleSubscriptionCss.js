@@ -1,0 +1,102 @@
+import { makeStyles } from "@mui/styles";
+
+export const useStyles=makeStyles({
+
+container:{
+    display:'flex',
+    justifyContent:'center',
+    alignItems:'center',
+    background:'#f1f1f1',
+    borderRadius:15
+},
+Paper:{
+    display:'flex',
+    cursor:'pointer',
+    alignItems:'center',
+    margin:20,
+    padding:20,
+    width:950,
+    height:120,
+    
+},
+heading:{
+fontFamily:'Roboto',
+fontSize:28,
+fontWeight:'bold',
+position:'absolute',
+marginTop:20,
+marginLeft:70,
+padding:15
+},
+fuel:{
+    width:20,
+    height:20,
+    position:'absolute',
+    marginTop:80,
+    marginLeft:90
+},
+subheading:{
+    fontSize:16,
+    fontWeight:400,
+    position:'absolute',
+    marginTop:80,
+    marginLeft:115
+},
+seater:{
+    width:20,
+    height:20,
+    position:'absolute',
+    marginTop:80,
+    marginLeft:180
+},
+seatheading:{
+    fontSize:16,
+    fontWeight:400,
+    position:'absolute',
+    marginTop:80,
+    marginLeft:205
+},
+rupees:{
+    fontSize:28,
+    fontWeight:600,
+    position:'absolute',  
+    marginLeft:460,
+    margin:15,
+    marginTop:35,
+},
+rupee:{
+    width:17,
+    height:20, 
+    position:'absolute',
+    margin:15,
+    marginLeft:440,
+    marginTop:45
+},
+month:{
+    fontSize:20,
+    fontWeight:400,
+    position:'absolute',  
+    marginLeft:540,
+    margin:15,
+    marginTop:40
+},
+rupees1:{
+    fontSize:30,
+    fontWeight:400,
+    position:'absolute',  
+    marginLeft:440,
+    margin:15,
+    marginTop:70,
+    color:'#63cdda'
+},
+rupee1:{
+    width:17,
+    height:20, 
+    position:'absolute',
+    margin:15,
+    marginLeft:478,
+    marginTop:68
+},
+
+
+})

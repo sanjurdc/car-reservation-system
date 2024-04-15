@@ -1,0 +1,141 @@
+import { makeStyles } from "@mui/styles";
+
+export const useStyles= makeStyles({
+
+paper:{
+    display:'flex',
+    justifyContent:'center', 
+    width:'80%',
+    height:400,
+    padding:20,
+    borderRadius:20
+},
+box:{
+    background:'#ffb142', 
+    width:480,
+    height:65,
+    padding:10,
+    borderRadius:20
+},
+messageBox:{
+    position:'relative',
+    bottom:15,
+    right:15
+},
+messageBoxIcon:{
+    width:'41%', 
+    height:80,
+    borderRadius:10,
+    border:2,
+    position:'relative',
+    top:15,
+    left:20
+},
+heading:{
+    position:'relative',
+    left:55,
+    bottom:65,
+    fontSize:24,
+    fontWeight:'bold'
+},
+subHeading:{
+    position:'relative',
+    left:45,
+    bottom:68,
+    fontSize:16,
+},
+subscription:{
+    position:'absolute',
+    left:250,
+    bottom:375,
+    color:'white',
+    fontSize:26,
+    fontWeight:'bold'
+},
+subscriptionText:{
+    position:'absolute',
+    left:255,
+    bottom:352,
+    color:'white',
+    padding:1
+},
+rentalIcon:{
+    position:'absolute',
+    top:130
+},
+city:{
+    cursor:'pointer', 
+    margin:4,
+    marginRight:15, 
+    position:'absolute',
+    left:30,
+    bottom:183,
+    padding:10, 
+    display:'flex',
+    width:'70%',
+    height:27,
+    alignItems:'center',
+    borderRadius:10,
+    border:'1px solid #222f3e'
+},
+startDate:{
+    cursor:'pointer', 
+    margin:4,
+    position:'absolute',
+    left:30,
+    bottom:120,
+    padding:10,
+    display:'flex',
+    width:'32%',
+    height:27, 
+    alignItems:'center',
+    borderRadius:10,
+    border:'1px solid #222f3e'
+},
+endDate:{
+    cursor:'pointer', 
+    margin:4, 
+    position:'absolute',
+    left:233,
+    bottom:120,
+    padding:10, 
+    display:'flex',
+    width:'32%',
+    height:27, 
+    alignItems:'center',
+    borderRadius:10,
+    border:'1px solid #222f3e'
+},
+dateDiff:{
+    position:'absolute',
+    left:120,
+    bottom:70,
+    padding:30,
+    fontWeight:'bold'
+},
+button:{
+    cursor:'pointer', 
+    margin:4, 
+    position:'absolute',
+    left:30,
+    bottom:40,
+    padding:10, 
+    display:'flex',
+    width:'70%',
+    height:27, 
+    alignItems:'center',
+    borderRadius:30,
+    border:'1px solid #222f3e',
+    background:'#273c75',
+},
+buttonText:{
+    display:'flex',
+    justifyContent:'center',
+    alignItems:'center', 
+    fontSize:24,
+    fontWeight:'bold',
+    marginLeft:155,
+    color:'white'
+}
+
+})
